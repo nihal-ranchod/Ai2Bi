@@ -57,13 +57,6 @@ This repository contains the website for the Ai2Bi Platform, a bespoke generativ
 - Google Fonts (Poppins)
 - N8N (workflow automation platform)
 
-## Future Enhancements
-
-- Add user authentication
-- Implement document preview functionality
-- Add more interactive elements
-- Integrate progress tracking for document processing
-
 ---
 
 Developed for Datacentrix ARC - 2025
