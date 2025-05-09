@@ -429,16 +429,34 @@ section {
 .chat-embed {
   height: 700px;
   width: 100%;
-  border-radius: 8px;
-  overflow: hidden;
+  border-radius: 10px;
+  overflow: auto;
   box-shadow: var(--box-shadow);
+
+  --chat--header-height: auto;
+
+  /* Chat Bot Message Colour */
+  --chat--message--bot--background: var(--dark-bg);
+	--chat--message--bot--color: var(--light-bg);
+	--chat--message--bot--border: none;
+
+  /* Chat User Message Colour */
+  --chat--message--user--background: var(--secondary-color);
+	--chat--message--user--color: var(--light-bg);
+	--chat--message--user--border: none;
+	--chat--message--pre--background: rgba(0, 0, 0, 0.05);
+
+  /* Chat Text Settings */
+  --chat--message--font-size: 1rem;
+	--chat--message-line-height: 2;
+  --chat--textarea--height: 60px;
 }
 
 /* Style the N8N chat interface */
-:root {
-  --n8n-chat-primary-color: var(--primary-color);
-  --n8n-chat-background-color: var(--bg-color);
-}
+/* :root {
+  --chat-primary-color: var(--primary-color); 
+  --chat-background-color: var(--bg-color);
+} */
 
 /* Chat help button */
 #chat-help-button {
