@@ -43,10 +43,10 @@
                         <div class="sidebar-section">
                             <h4>Sample Questions</h4>
                             <ul class="sample-questions">
-                                <li><button class="question-btn">"What are the key metrics from our Q1 sales data?"</button></li>
-                                <li><button class="question-btn">"Show me contract renewal dates for next month"</button></li>
-                                <li><button class="question-btn">"Create a sales trend chart for the past 6 months"</button></li>
-                                <li><button class="question-btn">"Summarize our customer feedback from last quarter"</button></li>
+                                <li><button class="question-btn">What are the key metrics from our Q1 sales data?</button></li>
+                                <li><button class="question-btn">Show me contract renewal dates for next month</button></li>
+                                <li><button class="question-btn">Create a sales trend chart for the past 6 months</button></li>
+                                <li><button class="question-btn">Summarize our customer feedback from last quarter</button></li>
                             </ul>
                         </div>
                         <div class="sidebar-section">
@@ -130,7 +130,6 @@
         <ul>
             <li><i class="fas fa-search"></i> Search through your documents</li>
             <li><i class="fas fa-chart-bar"></i> Create visualizations from your data</li>
-            <li><i class="fas fa-file-contract"></i> Manage and analyze contracts</li>
             <li><i class="fas fa-download"></i> Download reports and insights</li>
             <li><i class="fas fa-question-circle"></i> Answer questions about your business data</li>
         </ul>
@@ -142,15 +141,15 @@
         createChat({
             mode: 'fullscreen',
             webhookUrl: 'https://kkarodia.app.n8n.cloud/webhook/7c089ff0-3fd4-4b5f-bb76-eff2d51345de/chat',
+            i18n: {
+                en: {
+                    title: 'Welcome to Ai2Bi Chat 👋',
+                    subtitle: "Making business intelligence conversational. Start with a question, end with actionable insights",
+                }
+            },
             initialMessages: [
-                'Welcome to Ai2Bi Chat 👋',
-                "Not sure where to begin? Here are some things I can help with:\n\n" +
-                "📊 Generate data visualizations\n\n" +
-                "📝 Analyze your documents\n\n" +
-                "📈 Create business insights\n\n" +
-                "💼 Extract key metrics from your data\n\n" +
-                "Just type your question and I'll take it from there!"
-            ]
+                'Not sure where to begin? Press the question icon in the bottom right to see the things I can help with:',
+            ],
         });
 
         // Sample questions functionality
