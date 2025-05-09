@@ -60,3 +60,5 @@ This repository contains the website for the Ai2Bi Platform, a bespoke generativ
 ---
 
 Developed for Datacentrix ARC - 2025
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2334df75-954f-4802-87c1-2eea3a811b60/deploy-status)](https://app.netlify.com/sites/datacentrix-ai2bi/deploys)
