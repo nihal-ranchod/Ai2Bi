@@ -393,6 +393,7 @@ section {
   padding: 20px;
   background-color: var(--primary-color);
   color: #fff;
+  font-size: 1.5rem;
 }
 
 .sidebar-content {
@@ -405,7 +406,7 @@ section {
 
 .sidebar-section h4 {
   margin-bottom: 15px;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: var(--primary-color);
 }
 
@@ -418,7 +419,7 @@ section {
   border: none;
   color: var(--text-color);
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-align: left;
   display: block;
   width: 100%;
@@ -435,9 +436,9 @@ section {
 .capabilities-list li {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 12px;
-  font-size: 0.9rem;
+  gap: 15px;
+  margin-bottom: 20px;
+  font-size: 1rem;
 }
 
 .capabilities-list i {
