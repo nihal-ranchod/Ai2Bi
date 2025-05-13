@@ -361,6 +361,29 @@ section {
   min-height: 700px;
 }
 
+/* Chart Warning Banner */
+.chart-warning-banner {
+  background-color: #fff3cd;
+  border-left: 4px solid #ffc107;
+  color: #856404;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.chart-warning-banner i {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: #ffc107;
+}
+
+.chart-warning-banner p {
+  margin: 0;
+}
+
 .chat-sidebar {
   background-color: var(--light-bg);
   border-right: 1px solid var(--border-color);
